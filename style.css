@@ -1,0 +1,233 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.dot {
+  display: block;
+}
+
+.black-bar {
+  background-color: rgb(27, 27, 27);
+  padding: 5px;
+  text-align: center;
+}
+.black-bar > a {
+  color: aliceblue;
+}
+.elem-container {
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  grid-template-rows: 1fr;
+  height: 70px;
+  /* background-color: beige; */
+}
+.scd-elem-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -30vh;
+}
+.scd-elem {
+  font-family: "Lilita One", sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: xx-large;
+  color: rgb(45, 44, 44);
+}
+.fst-elem-cont {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+  gap: 5px;
+}
+.fst-elem {
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: rgb(45, 44, 44);
+  padding: 5px 15px;
+}
+.icone {
+  color: rgb(45, 44, 44);
+}
+.thd-elem-cont {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.thd-elem {
+  padding: 5px 10px;
+  /* background-color: blue; */
+}
+.fst-elem:hover {
+  background-color: #ddd;
+  border-radius: 5px;
+  transform: scale(1.1);
+  transition: all 0.9s;
+}
+.thd-elem:hover {
+  background-color: #ddd;
+  border-radius: 5px;
+  transform: scale(1.1);
+}
+.elem-container {
+  background-color: #f6f6f6;
+}
+.categories {
+  display: flex;
+  height: 60px;
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+.cate-item {
+  font-family: "Afacad Flux", sans-serif;
+  text-transform: capitalize;
+  font-size: large;
+  padding: 5px 10px;
+}
+.cate-item:hover {
+  background-color: #eceaea;
+  border-radius: 4px;
+  transition: all 0.5s;
+  transform: scale(1.2);
+}
+.aboutpart1 {
+  width: 50%;
+}
+.aboutpart2 {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+}
+.search-inp {
+  padding: 5px;
+  /* position: absolute;
+  right: 30px; */
+}
+.search-button {
+  /* position: absolute ; */
+  /* right: 10px; */
+  padding: 6px;
+  margin-left: 5px;
+  color: rgb(45, 44, 44);
+  background-color: rgb(244, 240, 240);
+  border: 0px;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  font-weight: 700;
+}
+.search-button:hover {
+  transition: all 0.5s;
+  transform: scale(1.1);
+  transform-origin: left;
+}
+.about {
+  display: flex;
+}
+.aboutpart1 {
+  margin-left: -100px;
+}
+.aboutpart1 > * {
+  text-align: center;
+  font-size: larger;
+}
+.body-center {
+  width: 90%;
+  height: 700px;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5px;
+}
+.body-first {
+  background-image: url(images/choices/15\ Emerald\ Green\ Outfit\ Ideas\ for\ Women\ to\ Make\ You\ Feel\ Like\ a\ Gem\ -\ TOPGURL.jpeg);
+  background-position: center top;
+  opacity: 90%;
+  border-radius: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.body-second {
+  background-image: url(images/choices/FashionBeans\ Archives\ _\ FashionBeans.jpeg);
+  background-position: center top;
+  opacity: 90%;
+  border-radius: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.body-third {
+  background-image: url(images/choices/Sewing\ Pattern\ PDF\ 4\ YEARS\ Box\ Pleated\ Girl\ Dress\ -\ Etsy.jpeg);
+  background-position: center top;
+  opacity: 90%;
+  border-radius: 2%;
+}
+.body-title {
+  color: white;
+  text-decoration: none;
+  font-family: "Lobster", sans-serif;
+  text-transform: capitalize;
+  font-size: xx-large;
+}
+.body-title:hover {
+  transition: all 0.5s;
+  transform: scale(1.5);
+}
+
+.bg {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.427);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2%;
+}
+.bg:hover {
+  background-color: rgba(5, 5, 5, 0.646);
+  transition: all 0.5s;
+}
+.footer-part1 {
+  display: flex;
+  justify-content: center;
+}
+.first-part {
+  margin-top: 15px;
+
+  width: 40%;
+}
+.footer-list {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+.footer-list > * {
+  list-style-type: none;
+}
+.footer-list > li > a {
+  text-decoration: none;
+  color: #b8b5b5;
+  font-family: "Kanit", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.footer-part2 {
+  width: 80%;
+  margin: 20px auto;
+  border-top: 1px solid #b8b5b5;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.footer-part2 > p {
+  margin-top: 5px;
+  color: #b8b5b5;
+  font-size: small;
+}
